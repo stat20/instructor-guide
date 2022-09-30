@@ -7,34 +7,6 @@
     "text": "This is a place to hold documentation on certain aspects of course structure for instructors of Stat 20."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "1  Slides",
-    "section": "",
-    "text": "Quarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at https://quartopub.com/.\n\nBe sure your personal fork of the course-materials is up to take by syncing it to the one on github.com/stat20.\nPull the most recent changes from your fork to your local machine.\nMake changes to slides.qmd.\nIn the terminal, run `quarto publish"
-  },
-  {
     "objectID": "slides.html#modifying-your-own-slides",
     "href": "slides.html#modifying-your-own-slides",
     "title": "1  Slides",

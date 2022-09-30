@@ -1,1 +1,3 @@
-# instructor-guide
+# Instructor Guide
+## Stat 20
+
