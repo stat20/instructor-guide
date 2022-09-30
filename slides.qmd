@@ -25,3 +25,5 @@ Quarto Pub is a free service for publishing quarto documents, including slides, 
 2. Your slides will open in a browser. In the menu on the right side, change the slug to be the exact wording of the topic of the day (i.e. `summarizing-numerical-data`).
 
 3. At this point, you're all set! You can click the link at the top to see how your slides will look once they're linking off of the course website.
+
+If you'd like to learn more about publishing with Quarto Pub, see the [official documentation](https://quarto.org/docs/publishing/quarto-pub.html).
