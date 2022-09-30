@@ -1,0 +1,3 @@
+# Welcome {.unnumbered}
+
+This is a place to hold documentation on certain aspects of course structure for instructors of Stat 20.

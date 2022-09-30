@@ -1,0 +1,27 @@
+# Slides
+
+![](images/slides-diagram.png)
+
+## Modifying your own slides
+
+1. Be sure your personal fork of the `course-materials` is up to take by syncing it to the one on `github.com/stat20`.
+
+2. Pull the most recent changes from your fork to your local machine.
+
+3. Make changes to `slides.qmd` and save.
+
+## Publishing your own slides
+
+Quarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at <https://quartopub.com/>.
+
+1. Once you are set up with an account, you can publish your slides by going to the terminal and running:
+
+   ```bash
+   quarto publish quarto-pub slides.qmd
+   ```
+   
+   If you are not in the sub-directory containing your slides, you will either need to navigate there then run the above command or provide the path to your `slides.qmd`.
+   
+2. Your slides will open in a browser. In the menu on the right side, change the slug to be the exact wording of the topic of the day (i.e. `summarizing-numerical-data`).
+
+3. At this point, you're all set! You can click the link at the top to see how your slides will look once they're linking off of the course website.

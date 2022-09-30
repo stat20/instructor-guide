@@ -1,0 +1,17 @@
+project:
+  type: book
+
+book:
+  title: "Instructor Guide"
+  subtitle: "Stat 20"
+  date: "9/30/2022"
+  chapters:
+    - index.qmd
+    - slides.qmd
+
+format:
+  html:
+    theme: cosmo
+
+
+
