@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Instructor Guide",
+    "section": "",
+    "text": "This is a place to hold documentation on certain aspects of course structure for instructors of Stat 20."
+  },
+  {
+    "objectID": "slides.html#modifying-your-own-slides",
+    "href": "slides.html#modifying-your-own-slides",
+    "title": "1  Slides",
+    "section": "1.1 Modifying your own slides",
+    "text": "1.1 Modifying your own slides\n\nBe sure your personal fork of the course-materials is up to take by syncing it to the one on github.com/stat20.\nPull the most recent changes from your fork to your local machine.\nMake changes to slides.qmd and save."
+  },
+  {
+    "objectID": "slides.html#publishing-your-own-slides",
+    "href": "slides.html#publishing-your-own-slides",
+    "title": "1  Slides",
+    "section": "1.2 Publishing your own slides",
+    "text": "1.2 Publishing your own slides\nQuarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at https://quartopub.com/.\n\nOnce you are set up with an account, you can publish your slides by going to the terminal and running:\nquarto publish quarto-pub slides.qmd\nIf you are not in the sub-directory containing your slides, you will either need to navigate there then run the above command or provide the path to your slides.qmd.\nYour slides will open in a browser. In the menu on the right side, change the slug to be the exact wording of the topic of the day (i.e. summarizing-numerical-data).\nAt this point, you’re all set! You can click the link at the top to see how your slides will look once they’re linking off of the course website."
+  }
+]
