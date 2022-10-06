@@ -13,6 +13,7 @@ book:
 format:
   html:
     theme: cosmo
+    number-depth: 1
 
 execute:
   freeze: auto
