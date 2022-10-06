@@ -14,3 +14,13 @@ The source document for each set of lecture notes is a Quarto document; a .qmd f
 
 ## Style
 
+### Images
+
+### Figures
+
+### Code
+
+#### Style
+
+#### Chunk Options
+
