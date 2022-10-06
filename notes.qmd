@@ -6,7 +6,7 @@ In this flipped classroom model, students first encounter new ideas by reading t
 
 The primary goal of the notes is to introduce students to new ideas in statistics. Since they will be 
 
-Daitaxis (<https://diataxis.fr/>)
+Read this: Daitaxis (<https://diataxis.fr/>)
 
 ## Format
 
