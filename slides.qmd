@@ -16,7 +16,7 @@ Quarto Pub is a free service for publishing quarto documents, including slides, 
 
 1. Once you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: `cd summarizing-numerical-data`. In that directory run:
 
-   ```bash
+   ```{.bash filename="Terminal"}
    quarto publish quarto-pub slides.qmd
    ```
    
@@ -36,6 +36,12 @@ Test it out by working in a much simpler directory than `course-materials`, one 
 
 3. In the terminal, navigate into the sub-directory with the slides: `cd summarizing-numerical-data`
 
-4. Still at the terminal, publish your slides: `quarto publish quarto-pub slides.qmd`. Click through any prompts you might see at the terminal.
+4. Still at the terminal, publish your slides:
+
+   ```{.bash filename="Terminal"}
+   quarto publish quarto-pub slides.qmd
+   ```
+   
+   Click through any prompts you might see at the terminal.
 
 5. If it publishes successfully, the terminal will print a link to your published document. Visit that site and check the link at the top that it says that it has been "Published at ...". It should appear as `<user_name>.quarto.pub/summarizing-categorical-data/`.
