@@ -5,6 +5,8 @@ book:
   title: "Instructor Guide"
   subtitle: "Stat 20"
   date: today
+  repo-url: https://github.com/stat20/instructor-guide
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - notes.qmd
