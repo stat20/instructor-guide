@@ -10,5 +10,7 @@ Daitaxis (<https://diataxis.fr/>)
 
 ## Format
 
+The source document for each set of lecture notes is a Quarto document; a .qmd file. The .qmd file is a text file that contains metadata in a header (using YAML), written text in Markdown, and code in code cells. The [Quarto documentation](https://quarto.org/) is extensive. A good place to start is by reading through the [short tutorials](https://quarto.org/docs/get-started/hello/rstudio.html), then read through the [authoring guide](https://quarto.org/docs/guide/) to build a fuller sense of its capabilities.
+
 ## Style
 
