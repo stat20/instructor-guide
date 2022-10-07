@@ -14,15 +14,19 @@
 
 Quarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at <https://quartopub.com/>.
 
-1. Once you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: `cd summarizing-numerical-data`. In that directory run:
+1. Once you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: `cd summarizing-numerical-data`.
+
+2. Open `slides.qmd` and, ensure that under `revealjs:` that you add the option `self-contained: true`. (read more [here](https://quarto.org/docs/output-formats/html-basics.html#self-contained))
+
+3.   In that directory run:
 
    ```{.bash filename="Terminal"}
    quarto publish quarto-pub slides.qmd
    ```
    
-2. You may be prompted to answer a few questions at the terminal. If it successfully published, it will provide a link to your published document
+4. You may be prompted to answer a few questions at the terminal. If it successfully published, it will provide a link to your published document
 
-3. At this point, you're all set!
+5. At this point, you're all set!
 
 If you'd like to learn more about publishing with Quarto Pub, see the [official documentation](https://quarto.org/docs/publishing/quarto-pub.html).
 
