@@ -220,13 +220,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="publishing-your-own-slides">Publishing your own slides</h2>
 <p>Quarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at <a href="https://quartopub.com/" class="uri">https://quartopub.com/</a>.</p>
 <ol type="1">
-<li><p>Once you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: <code>cd summarizing-numerical-data</code>. In that directory run:</p>
+<li><p>Once you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: <code>cd summarizing-numerical-data</code>.</p></li>
+<li><p>Open <code>slides.qmd</code> and, ensure that under <code>revealjs:</code> that you add the option <code>self-contained: true</code>. (read more <a href="https://quarto.org/docs/output-formats/html-basics.html#self-contained">here</a>)</p></li>
+<li><p>In that directory run:</p></li>
+</ol>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish quarto-pub slides.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></li>
+</div>
+<ol start="4" type="1">
 <li><p>You may be prompted to answer a few questions at the terminal. If it successfully published, it will provide a link to your published document</p></li>
 <li><p>At this point, you’re all set!</p></li>
 </ol>

@@ -46,7 +46,7 @@
     "href": "slides.html#publishing-your-own-slides",
     "title": "2  Slides",
     "section": "Publishing your own slides",
-    "text": "Publishing your own slides\nQuarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at https://quartopub.com/.\n\nOnce you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: cd summarizing-numerical-data. In that directory run:\n\n\nTerminal\n\nquarto publish quarto-pub slides.qmd\n\nYou may be prompted to answer a few questions at the terminal. If it successfully published, it will provide a link to your published document\nAt this point, you’re all set!\n\nIf you’d like to learn more about publishing with Quarto Pub, see the official documentation."
+    "text": "Publishing your own slides\nQuarto Pub is a free service for publishing quarto documents, including slides, online. Start by setting up an account at https://quartopub.com/.\n\nOnce you are set up with an account, in the terminal, navigate to the directory that contains your slides, for example: cd summarizing-numerical-data.\nOpen slides.qmd and, ensure that under revealjs: that you add the option self-contained: true. (read more here)\nIn that directory run:\n\n\n\nTerminal\n\nquarto publish quarto-pub slides.qmd\n\n\nYou may be prompted to answer a few questions at the terminal. If it successfully published, it will provide a link to your published document\nAt this point, you’re all set!\n\nIf you’d like to learn more about publishing with Quarto Pub, see the official documentation."
   },
   {
     "objectID": "slides.html#test-it-out",
